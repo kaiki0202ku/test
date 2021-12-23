@@ -1,0 +1,229 @@
+.profileWrap {
+  background-color: #ebedf3;
+  height: 870px;
+  position: relative;
+  overflow: hidden;
+}
+.profileWrap h2 {
+  font-size: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-left: 40px;
+}
+.profile img {
+  margin-top: 92px;
+}
+.profileImage {
+  z-index: 9;
+  margin-left: 40px;
+}
+.profileImg {
+  max-width: 580px;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
+.profileArea {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-top: 92px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.profileRight {
+  font-size: 16px;
+  max-width: 532px;
+  width: 100%;
+  margin-left: 50px;
+  z-index: 10;
+}
+.profileRight p {
+  margin-bottom: 80px;
+  margin-right: 40px;
+}
+.profileWrap02 {
+  position: relative;
+  overflow-x: clip;
+}
+.profileColor {
+  background-color: #ededed;
+  margin-top: 63px;
+  max-width: 592px;
+  width: 100%;
+  height: 440px;
+  font-size: 2rem;
+}
+.profileColor dt {
+  display: flex;
+}
+dl {
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+dt {
+  float: left;
+}
+dd {
+  margin-left: 140px;
+  margin-bottom: 40px;
+  white-space: nowrap;
+}
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.profileImage02 {
+  margin-top: 242px;
+  margin-left: 66px;
+  margin-bottom: 200px;
+  width: 70%;
+  position: relative;
+}
+.profileImage02 img {
+  width: 100%;
+  max-width: 381px;
+  height: auto;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.flower01 {
+  left: -45px;
+  width: 20%;
+  position: absolute;
+}
+.flower01 img {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+}
+.flower02 {
+  position: absolute;
+  right: -3%;
+  width: 15%;
+  /*margin-right: 30px;*/
+}
+.flower02 img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.flower03 {
+  position: absolute;
+  right: -2%;
+  top: -35%;
+  width: 17%;
+  margin-right: 2px;
+  /*margin-right: 30px;*/
+}
+.flower03 img {
+  width: 100%;
+  max-width: 322px;
+  height: auto;
+}
+.flower04 {
+  left: -6%;
+  width: 23%;
+  top: -20%;
+  position: absolute;
+}
+.flower04 img {
+  width: 100%;
+  max-width: 444px;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .profileWrap h2 {
+    padding-left: 15px;
+    font-size: 4rem;
+  }
+  .profileRight p {
+    margin: 0 15px;
+  }
+  .profileWrap {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .profileWrap h2 {
+    margin: 0 15px;
+  }
+
+  .profileArea {
+    margin-top: 40px;
+  }
+  .profileImage02 {
+    display: none;
+  }
+  .profileArea {
+    display: block;
+  }
+  .profileImage {
+    text-align: center;
+    margin: 0 15px;
+  }
+  .profileImg {
+    max-width: 100%;
+  }
+
+  .profileRight {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .profileColor {
+    font-size: 1.4rem;
+    height: 400px;
+    max-width: 1000px;
+  }
+
+  dd {
+    margin-bottom: 50px;
+    margin-left: 110px;
+    white-space: nowrap;
+  }
+  dl {
+    padding-bottom: 40px;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+  .flower02 {
+    right: -6%;
+    top: 1%;
+    width: 35%;
+  }
+  .flower03 {
+    right: -3%;
+    top: 22%;
+    width: 30%;
+  }
+  .flower04 {
+    left: -6%;
+    width: 23%;
+    top: -8%;
+  }
+}
+@media screen and (max-width: 400px) {
+  dl {
+    padding-bottom: 80px;
+  }
+  .profileColor {
+    height: 370px;
+  }
+  .profileWrap h2 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,81 @@
+.informationWrap {
+  width: 100%;
+  background-color: #ebedf3;
+  padding-top: 126px;
+  padding-bottom: 270px;
+  overflow: hidden;
+  position: relative;
+}
+.informationArea {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+
+  padding-bottom: 170px;
+}
+.informationWrap p {
+  padding-left: 22%;
+}
+.informationWrap p:nth-child(even) {
+  font-size: 1.5rem;
+  color: #767676;
+  margin-bottom: 20px;
+}
+.informationWrap p:nth-child(odd) {
+  font-size: 1.7rem;
+  margin-bottom: 40px;
+}
+
+.flower01 {
+  left: -2%;
+  width: 35%;
+  top: 100px;
+  position: absolute;
+}
+.flower01 img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-left: 10px;
+}
+.flower02 {
+  position: absolute;
+  right: -2%;
+  top: 400px;
+  width: 19%;
+  /*margin-right: 30px;*/
+}
+.flower02 img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+@media screen and (max-width: 1200px) {
+  .flower01 {
+    left: -4%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .informationWrap {
+    padding-top: 0;
+    padding-bottom: 100px;
+  }
+  h2 {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .flower01 {
+    width: 30%;
+    top: 20%;
+  }
+  .flower02 {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .flower02 {
+    top: 77%;
+  }
+}

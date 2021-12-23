@@ -1,0 +1,560 @@
+.navigationWrapPc {
+  position: relative;
+}
+.navigationIconAreaPc {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  z-index: 100;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+}
+.mainImage {
+  height: auto;
+  display: block;
+  text-align: center;
+}
+
+.mainImage img {
+  width: 90%;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.navigationWrapPc span {
+  font-size: 12px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  padding-bottom: 30px;
+}
+.navigationWrapPc ul li img {
+  width: 2vw;
+  padding-bottom: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.profileWrap {
+  margin-top: 130px;
+}
+.profile h2 {
+  text-align: center;
+  margin-top: 188px;
+}
+.profile img {
+  margin-top: 92px;
+}
+.profileImage {
+  z-index: 9;
+  margin-left: 40px;
+}
+.profileImg {
+  max-width: 620px;
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
+.profileArea {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  justify-content: center;
+  margin-top: 92px;
+  width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.profileRight {
+  font-size: 16px;
+  max-width: 532px;
+  width: 100%;
+  margin-left: 50px;
+  z-index: 10;
+}
+.profileRight p {
+  margin-bottom: 80px;
+  margin-right: 40px;
+}
+
+.informationWrap {
+  background-color: #ebedf3;
+  height: 820px;
+  margin-top: -170px;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+}
+.informationWrap h2 {
+  padding-top: 220px;
+  margin-bottom: 90px;
+}
+.informationWrap .viewMoreWrap {
+  margin-top: 80px;
+}
+.informationArea p {
+  margin-left: 240px;
+  margin-bottom: 10px;
+}
+.informationArea p:nth-child(odd) {
+  font-size: 1.4rem;
+  margin-top: 40px;
+  color: #767676;
+  opacity: 0.6;
+}
+.informationArea p:nth-child(even) {
+  font-size: 1.7rem;
+}
+.informationArea {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.youtubeWrap {
+  padding-top: 80px;
+  padding-bottom: 64px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+.youtubeWrap h2 {
+  margin-bottom: 64px;
+}
+.youtubeWrap .viewMoreWrap {
+  margin-top: 80px;
+}
+.youtube {
+  margin: 0 auto;
+}
+.youtube img {
+  width: 90%;
+  max-width: 800px;
+  height: auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: solid 3px #673b00;
+}
+.youtubeWrap a {
+  z-index: 33;
+}
+.tiktokWrap {
+  background-color: #ebedf3;
+  max-height: 950px;
+  height: 100%;
+  position: relative;
+  overflow-x: clip;
+}
+.tiktokArea {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 47px;
+}
+.tiktokImg {
+  margin: 0 40px;
+}
+.tiktokImg img {
+  width: 100%;
+  max-width: 335px;
+  height: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.tiktokWrap h2 {
+  margin-top: 71px;
+  padding-top: 80px;
+}
+.instagramWrap {
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  position: relative;
+  overflow-x: clip;
+  z-index: 9;
+}
+.instagram {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.instagram-media {
+  max-width: 100% !important;
+  min-width: initial !important;
+  margin: 0 auto;
+}
+.instagramWrap h2 {
+  padding-bottom: 64px;
+}
+.instagramWrap .viewMoreWrap {
+  margin-top: 80px;
+}
+.informationWrap img {
+  width: 100%;
+}
+.informationArea a {
+  font-family: dnp-shuei-gothic-gin-std, sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+}
+.instagramArea01 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 50px;
+  padding: 0 50px;
+}
+@media screen and (max-width: 1200px) {
+  .instagramArea01 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .instagramArea01 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+  }
+}
+.instagramArea01 div {
+  width: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .instagramArea01 {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .instagramArea01 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .instagramArea01 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 0 15px;
+  }
+  .instagram-media {
+    width: 360px;
+    width: 100%;
+  }
+}
+.instagramArea01 div {
+  width: 100%;
+}
+
+.viewMoreWrap {
+  max-width: 1200px;
+  width: 100%;
+  text-align: right;
+  margin: 0 auto;
+  display: block;
+  margin-top: 80px;
+}
+.viewMore {
+  border-bottom: solid 2px #222;
+  padding-bottom: 8px;
+  margin-bottom: 44px;
+  display: inline-block;
+  margin-left: 0;
+  white-space: nowrap;
+  font-size: 19px;
+  z-index: 5;
+  margin-right: 40px;
+}
+.HeaderCta > .ViewProfileButton {
+  display: none !important;
+}
+.flower01 {
+  right: -2%;
+  width: 17%;
+  position: absolute;
+}
+.flower01 img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
+
+.flower02 {
+  left: -6%;
+  width: 22%;
+  position: absolute;
+  z-index: 3;
+  top: 2%;
+}
+.flower02 img {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+}
+.flower03 {
+  right: -1%;
+  width: 15%;
+  position: absolute;
+  z-index: 2;
+  top: -7%;
+}
+.flower03 img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+.flower04 {
+  left: -4%;
+  width: 17%;
+  position: absolute;
+  z-index: 0;
+  top: 87%;
+}
+.flower04 img {
+  width: 100%;
+  max-width: 460px;
+  height: auto;
+}
+.sp-Img {
+  display: none;
+}
+.sp {
+  display: none;
+}
+.spScroll {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .instagram-media {
+    width: 320px;
+    max-width: 100% !important;
+    min-width: initial !important;
+  }
+  .viewMore {
+    margin-right: 50px;
+  }
+  .flower01 {
+    top: 20%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .instagram-media {
+    width: 270px;
+  }
+  .informationArea p {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .instagram-media {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .informationArea01 {
+    gap: 20px;
+  }
+  .instagram-media {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 767px) {
+  h2 {
+    margin-top: 0;
+  }
+  .profileArea {
+    display: block;
+    margin-top: 25px;
+  }
+  .sp-Img {
+    display: block;
+    width: 100%;
+    height: 250px;
+    background-color: #ebedf3;
+    position: absolute;
+    margin-top: -240px;
+  }
+  .profileImage {
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 15px;
+  }
+  .profileImg {
+    max-width: 100%;
+  }
+  .profileRight {
+    margin-left: 0;
+    max-width: 767px;
+    margin-top: 40px;
+  }
+  .profileRight p {
+    margin: 0 15px;
+  }
+  .informationWrap {
+    height: auto;
+    margin-top: 0;
+  }
+  .informationWrap h2 {
+    padding-top: 50px;
+    margin-top: 30px;
+  }
+  .tiktokWrap {
+    max-height: 100%;
+  }
+  .tiktokWrap h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .tiktokArea {
+    display: block;
+    text-align: center;
+    max-height: 100%;
+    margin-top: 0;
+  }
+  .tiktokImg {
+    margin: 0 15px;
+  }
+  .tiktokImg img {
+    max-width: 767px;
+
+    margin-top: 60px;
+  }
+  .instagramWrap h2 {
+    padding-bottom: 0;
+    margin-top: 60px;
+  }
+  .instagramWrap {
+    margin-bottom: 0;
+  }
+  .viewMore {
+    margin-right: 15px;
+    font-size: 1.5rem;
+  }
+  .flower03 {
+    top: -5%;
+  }
+  .flower04 {
+    top: 93%;
+  }
+}
+@media screen and (max-width: 649px) {
+  .flower03 {
+    top: -2%;
+  }
+  .instagram-media {
+    width: 300px !important;
+  }
+  .instagramArea01 {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+@media screen and (max-width: 500px) {
+  .instagram-media {
+    width: 470px !important;
+  }
+  .instagramArea01 {
+    grid: none;
+    gap: 15px;
+  }
+  .tiktokWrap {
+    max-height: 100%;
+  }
+
+  .tiktokArea {
+    display: block;
+  }
+  .tiktokImg {
+    margin: 0 auto;
+    text-align: center;
+    margin: 0 15px;
+    margin-top: 53px;
+  }
+  .spScroll {
+    display: block;
+    font-size: 1.8rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .scroll {
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: #070707;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+    margin-top: 25px;
+  }
+  .profileWrap {
+    margin-top: 50px;
+  }
+  .informationArea p:nth-child(odd) {
+    font-size: 1.2rem;
+  }
+  .informationArea p:nth-child(even) {
+    font-size: 1.4rem;
+  }
+  .informationWrap h2 {
+    margin-bottom: 70px;
+    margin-top: 0;
+  }
+  .informationArea p {
+    margin-left: 15px;
+  }
+  .informationWrap .viewMoreWrap {
+    margin-top: 40px;
+  }
+  .youtubeWrap {
+    padding-top: 50px;
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .youtubeWrap .viewMoreWrap {
+    margin-top: 40px;
+  }
+  .tiktokWrap h2 {
+    padding-top: 50px;
+  }
+  .tiktokImg {
+    margin-top: 0;
+  }
+  .viewMoreWrap {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .navigationIconAreaPc {
+    display: none;
+  }
+  .mainImage img {
+    max-width: 767px;
+    width: 100%;
+  }
+  .viewMore {
+    font-size: 1.2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .instagramWrap .viewMoreWrap {
+    margin-top: 40px;
+  }
+  .flower04 {
+    top: 98%;
+  }
+}

@@ -1,0 +1,84 @@
+.contactWrap {
+  background-color: #ebedf3;
+  padding-top: 120px;
+  overflow: hidden;
+}
+
+.contactWrap h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 222px;
+}
+
+.contactWrap p {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contactWrap .border {
+  width: 1px;
+  background-color: #707070;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 70px;
+}
+
+.contactWrap .email {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 4rem;
+  padding-bottom: 128px;
+}
+
+.contactWrap .flower01 {
+  right: -2%;
+  width: 21%;
+  top: 30px;
+  position: absolute;
+}
+
+.contactWrap .flower01 img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+.contactWrap .flower02 {
+  position: absolute;
+  left: -5%;
+  top: 400px;
+  width: 30%;
+  /*margin-right: 30px;*/
+}
+
+.contactWrap .flower02 img {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .contactWrap {
+    padding-top: 0;
+  }
+  .contactWrap h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .contactWrap p {
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+  }
+  .contactWrap .email {
+    font-size: 2rem;
+  }
+  .contactWrap .flower01 {
+    top: 25%;
+  }
+  .contactWrap .flower02 {
+    top: 55%;
+  }
+}
+/*# sourceMappingURL=contact.css.map */
