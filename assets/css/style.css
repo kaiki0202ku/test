@@ -147,6 +147,9 @@ header {
 .is-body-scroll-off {
   overflow: hidden;
 }
+main {
+  overflow: hidden;
+}
 
 h1 {
   text-align: center;
@@ -164,6 +167,7 @@ p {
   white-space: normal;
   color: #222;
 }
+
 h2 {
   font-family: dnp-shuei-mincho-pr6, sans-serif;
   font-style: normal;
@@ -226,6 +230,9 @@ li a:hover {
   opacity: 0.7;
 }
 a:hover {
+  opacity: 0.7;
+}
+dl a:hover {
   opacity: 0.7;
 }
 @media screen and (max-width: 767px) {

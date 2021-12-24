@@ -24,7 +24,10 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .navigationWrapPc span {
-  font-size: 12px;
+  font-family: dnp-shuei-mincho-pr6, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   padding-bottom: 30px;
@@ -96,18 +99,19 @@ h2 {
 .informationWrap .viewMoreWrap {
   margin-top: 80px;
 }
-.informationArea p {
+.informationArea dl {
   margin-left: 240px;
   margin-bottom: 10px;
 }
-.informationArea p:nth-child(odd) {
-  font-size: 1.4rem;
+.informationArea dt {
+  font-size: 1.6rem;
   margin-top: 40px;
   color: #767676;
   opacity: 0.6;
+  margin-bottom: 20px;
 }
-.informationArea p:nth-child(even) {
-  font-size: 1.7rem;
+.informationArea dd {
+  font-size: 1.9rem;
 }
 .informationArea {
   width: 100%;

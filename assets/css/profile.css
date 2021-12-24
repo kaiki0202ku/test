@@ -152,6 +152,7 @@ dd {
   }
   .profileRight p {
     margin: 0 15px;
+    font-size: 1.4rem;
   }
   .profileWrap {
     height: auto;
