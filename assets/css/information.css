@@ -3,6 +3,7 @@
   background-color: #ebedf3;
   padding-top: 126px;
   padding-bottom: 270px;
+  overflow: hidden;
   position: relative;
 }
 .informationArea {
@@ -71,7 +72,8 @@ a {
   }
   h2 {
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
   }
   .flower01 {
     width: 30%;
@@ -79,10 +81,27 @@ a {
   }
   .flower02 {
     width: 30%;
+    top: 200px;
+  }
+  .informationArea dl {
+    margin-left: 140px;
+  }
+  .informationArea dt {
+    font-size: 1.2rem;
+  }
+  .informationArea dd {
+    font-size: 1.4rem;
+  }
+  .informationWrap h2 {
+    margin-bottom: 30px;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 500px) {
   .flower02 {
-    top: 77%;
+    top: 60%;
+  }
+  .informationArea dl {
+    margin-left: 80px;
   }
 }
