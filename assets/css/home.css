@@ -86,7 +86,6 @@ h2 {
 
 .informationWrap {
   background-color: #ebedf3;
-  height: 820px;
   margin-top: -170px;
   z-index: 2;
   position: relative;
@@ -170,7 +169,6 @@ h2 {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .tiktokWrap h2 {
-  margin-top: 71px;
   padding-top: 80px;
 }
 .instagramWrap {
@@ -265,7 +263,7 @@ h2 {
 .viewMore {
   border-bottom: solid 2px #222;
   padding-bottom: 8px;
-  margin-bottom: 44px;
+  margin-bottom: 64px;
   display: inline-block;
   margin-left: 0;
   white-space: nowrap;
@@ -288,11 +286,11 @@ h2 {
 }
 
 .flower02 {
-  left: -6%;
-  width: 22%;
+  left: -7%;
+  width: 26%;
   position: absolute;
   z-index: 3;
-  top: 2%;
+  top: 70%;
 }
 .flower02 img {
   width: 100%;
@@ -435,6 +433,7 @@ h2 {
   }
   .instagramWrap {
     margin-bottom: 0;
+    margin-top: 80px;
   }
   .viewMore {
     margin-right: 15px;
@@ -532,6 +531,9 @@ h2 {
   }
   .viewMoreWrap {
     margin-top: 40px;
+  }
+  .flower02 {
+    top: 77%;
   }
 }
 
