@@ -102,6 +102,9 @@ header {
   transition: all 0.3s;
   z-index: 50;
 }
+.siteHeader__gNaviList li:nth-last-child(1) {
+  padding-bottom: 100px;
+}
 @media screen and (max-width: 767px) {
   .siteHeader__gNaviList {
     overflow-y: scroll;
