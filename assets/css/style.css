@@ -77,11 +77,13 @@ header {
   opacity: 0;
 }
 .is-gNaviBtn-active::before {
+  margin-left: -30px;
   margin-top: 0;
   transform: rotate(45deg);
   background: #fff;
 }
 .is-gNaviBtn-active::after {
+  margin-left: -30px;
   margin-top: 0;
   transform: rotate(-45deg);
   background: #fff;
